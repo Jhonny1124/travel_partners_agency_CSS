@@ -1,10 +1,11 @@
 header{
     position: fixed;
     top: 0;
+    left: 25vw;
     z-index: 1000;
     margin: 0;
     padding: 0;
-    background-image: url("../imagenes/turismo1.jpg");
+    background-image: url("../imagenes/bandera_alemania.jpg");
     background-size: cover;
     background-position: center;
     max-width: 1350px;
@@ -23,8 +24,8 @@ body{
 }
 h1{
     position: absolute;
-    top: -3vw;
-    left: 22vw;
+    top: -3.5vw;
+    left: 17vw;
     transform: translate(10vw, 8vw);
     font-size: 5vw;
     font-family: "IM Fell Double Pica SC", serif;
@@ -40,14 +41,14 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 4vw;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 nav ul li:first-child{
     margin-left: 2vw;
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
     display: block;
 }
@@ -56,4 +57,20 @@ nav ul li a:active{
 }
 article{
     margin-top: 15vw;
+    margin-left: 25vw;
+}
+.navegacion_principal:hover{
+    box-shadow: 4px 4px 8px rgba(214, 4, 4, 0.774);
+    font-size: 1.7vw;
+    margin-right: -2.6vw;
+}
+aside{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    max-width: 350px;
+    min-width: 80px;
+    width: 24vw;
 }
