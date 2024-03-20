@@ -24,13 +24,13 @@ body{
 }
 h1{
     position: absolute;
-    top: -3.5vw;
-    left: 17vw;
+    top: -3.9vw;
+    left: 16vw;
     transform: translate(10vw, 8vw);
     font-size: 5vw;
-    font-family: "IM Fell Double Pica SC", serif;
-    font-style: normal;
+    font-family: "Saira Stencil One", sans-serif;
     font-weight: 600;
+    font-style: normal;
     padding: 0;
     margin: 0;
 }
@@ -42,6 +42,9 @@ nav ul li{
     display: inline-block;
     margin-right: 4vw;
     font-size: 1.5vw;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav ul li:first-child{
     margin-left: 2vw;
@@ -59,18 +62,49 @@ article{
     margin-top: 15vw;
     margin-left: 25vw;
 }
-.navegacion_principal:hover{
+nav ul li .navegacion_principal:hover{
     box-shadow: 4px 4px 8px rgba(214, 4, 4, 0.774);
     font-size: 1.7vw;
-    margin-right: -2.6vw;
+    margin-right: -2.75vw;
+    margin-top: -1vw;
+    padding: 0;
 }
 aside{
-    position: absolute;
+    position: fixed;
+    z-index: 3000;
     padding: 0;
     margin: 0;
-    top: 0;
+    top: -1.2vw;
     left: 0;
-    max-width: 350px;
+    max-width: 340px;
     min-width: 80px;
-    width: 24vw;
+    width: 25vw;
+    max-height: 615px;
+    min-height: 300px;   
+    height: 45vw;
+    background-color:rgba(245, 228, 228, 0.336);
+}
+aside section h4{
+    text-align: center;
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3vw;
+}
+aside section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1vw;
+}
+aside section ul li a{
+    text-decoration: none;
+    color:rgb(97, 97, 97);
+}
+aside section ul li a:hover{
+    color: blue;
 }
