@@ -69,7 +69,16 @@ nav ul li:hover{
     box-shadow: 4px 4px 8px rgba(5, 1, 240, 0.774);
     font-size: 2vw;
     margin-top: -1vw;
-    margin-right: 3.1vw;
+    margin-right: 3vw;
+}
+nav ul li:nth-child(2):hover{
+    margin-right: 2.6vw;
+}
+nav ul li:nth-child(3):hover{
+    margin-right: 2.8vw;
+}
+nav ul li:nth-child(4):hover{
+    margin-right: 3.15vw;
 }
 article{
     margin-top: 15vw;

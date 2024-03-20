@@ -8,7 +8,7 @@ header{
     background-image: url("../imagenes/bandera_alemania.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 1350px;
+    max-width: 1000px;
     min-width: 150px;
     width: 100vw;
     max-height: 200px;
@@ -46,7 +46,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin-right: 4vw;
+    margin-right: 2.9vw;
     font-size: 1.5vw;
     font-family: "Gruppo", sans-serif;
     font-weight: 400;
@@ -71,9 +71,12 @@ article{
 nav ul li .navegacion_principal:hover{
     box-shadow: 4px 4px 8px rgba(214, 4, 4, 0.774);
     font-size: 1.7vw;
-    margin-right: -2.75vw;
+    margin-right: -2.79vw;
     margin-top: -1vw;
     padding: 0;
+}
+nav ul li:nth-child(2) .navegacion_principal:hover{
+    margin-right: -2.7vw;
 }
 aside{
     position: fixed;
