@@ -15,6 +15,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Styles/styles_index.css">
     </head>
     <body>
@@ -24,19 +27,19 @@
                     <nav>
                         <ul>
                             <li><a href="#Inicio">Inicio</a></li>
+                            <li><a href="#Grecia">Grecia</a></li>
+                            <li><a href="#Japon">Japón</a></li>
+                            <li><a href="#Egipto">Egipto</a></li>
                             <li><a href="#Alemania">Alemania</a></li>
                             <li><a href="#Francia">Francia</a></li>
                             <li><a href="#Suiza">Suiza</a></li>
-                            <li><a href="#Grecia">Grecia</a></li>
-                            <li><a href="#Egipto">Egipto</a></li>
-                            <li><a href="#Japon">Japón</a></li>
                         </ul>
                     </nav>
             </header>
             <article id="Inicio">
                 <section>
                     <h2>Acerca de Nosotros</h2>
-                    <p>¡Bienvenido a Travel Partners, tu puerta de entrada a experiencias inolvidables en algunos de los destinos turísticos más emocionantes del mundo! 
+                    <p class="introduccion">¡Bienvenido a Travel Partners, tu puerta de entrada a experiencias inolvidables en algunos de los destinos turísticos más emocionantes del mundo! 
                         <br>Nos enorgullece ser tu socio en la exploración y aventura, proporcionándote servicios de viaje excepcionales a destinos únicos y fascinantes.
                         <br>En Travel Partners, nuestra misión es hacer realidad tus sueños de viaje. Nos esforzamos por crear experiencias de viaje excepcionales, llenas 
                         <br>de descubrimientos, cultura y momentos inolvidables. Tu satisfacción y felicidad son nuestra prioridad número uno.
@@ -44,88 +47,73 @@
                 </section>
                 <section>
                     <h2>Nuestros Destinos Exclusivos</h2>
-                    <p>
+                    <p class="introduccion">
                         Te invitamos a descubrir una cuidada selección de destinos extraordinarios. Desde las majestuosas montañas de Suiza hasta las antiguas maravillas de Egipto, 
                         <br>cada destino ha sido elegido para ofrecerte aventuras inolvidables y momentos mágicos. Explora con nosotros y sumérgete en la riqueza cultural, la historia fascinante
                         <br>y las experiencias auténticas que cada lugar tiene para ofrecer.¡Prepárate para un viaje inolvidable con Travel Partners!
                     </p>
-                    <h3 id="Alemania">Alemania</h3>
-                    <p>Descubre la rica historia y la cultura vibrante de Alemania, desde los castillos medievales en la Ruta Romántica hasta la modernidad de ciudades como Berlín y Múnich.</p>
-                    <a href="alemania.html" target="_blank">
-                        <figure>
-                            <img 
-                            src="imagenes/alemania.jpeg"
-                            alt="Castillo de Neuschwanstein"
-                            width="auto"
-                            height="auto"
-                            />
-                        </figure>
-                    </a>
-                    <hr>
-                    <h3 id="Francia">Francia</h3>
-                    <p>Sumérgete en la elegancia y el encanto de Francia, desde la Torre Eiffel en París hasta los viñedos de la región de Borgoña.</p>
-                    <a href="francia.html" target="_blank">
-                        <figure>
-                            <img 
-                            src="imagenes/francia.jpeg"
-                            alt="Torre Eiffel"
-                            width="auto"
-                            height="auto"
-                            />
-                        </figure>
-                    </a>
-                    <hr>
-                    <h3 id="Suiza">Suiza</h3>
-                    <p>Embárcate en un viaje a través de los paisajes alpinos suizos, disfrutando de la belleza natural y la precisión suiza en cada rincón.</p>
-                    <a href="suiza.html" target="_blank">
-                        <figure>
-                            <img 
-                            src="imagenes/suiza.jpeg"
-                            alt="Castillo de Chillon"
-                            width="auto"
-                            height="auto"
-                            />
-                        </figure>
-                    </a>
-                    <hr>
-                    <h3 id="Grecia">Grecia</h3>
-                    <p>Viaja en el tiempo explorando las antiguas ruinas, las islas paradisíacas y la rica gastronomía de Grecia.</p>
-                    <a href="grecia.html" target="_blank">
-                        <figure>
+                    <div id="Destinos">
+                        <a href="grecia.html" target="_blank" id="Grecia">
                             <img 
                             src="imagenes/grecia.jpeg"
                             alt="Santorini Grecia"
-                            width="auto"
-                            height="auto"
+                            width=auto
+                            height=auto
                             />
-                        </figure>
-                    </a>
-                    <hr>
-                    <h3 id="Egipto">Egipto</h3>
-                    <p>Sumérgete en la magia del antiguo Egipto, maravíllate con las Pirámides de Giza, el Templo de Karnak y realiza un crucero por el Nilo.</p>
-                    <a href="egipto.html" target="_blank">
-                        <figure>
-                            <img 
-                            src="imagenes/egipto.jpeg"
-                            alt="Pirámides de Giza"
-                            width="auto"
-                            height="auto"
-                            />
-                        </figure>
-                    </a>
-                    <hr>
-                    <h3 id="Japon">Japón</h3>
-                    <p>Explora la fusión única de tradición y modernidad en Japón, desde los templos antiguos hasta la tecnología de vanguardia en Tokio.</p>
-                    <a href="japon.html" target="_blank">
-                        <figure>
+                            <h3>Grecia</h3>
+                            <p>Viaja en el tiempo explorando las antiguas ruinas, las islas paradisíacas y la rica gastronomía de Grecia.</p>
+                        </a>
+                        <a href="japon.html" target="_blank" id="Japon">
                             <img 
                             src="imagenes/japon.jpeg"
                             alt="Kioto, Japón"
-                            width="auto"
-                            height="auto"
+                            width=auto
+                            height=auto
                             />
-                        </figure>
-                    </a>
+                            <h3>Japón</h3>
+                            <p>Explora la fusión única de tradición y modernidad en Japón, desde los templos antiguos hasta la tecnología de vanguardia en Tokio.</p>
+                        </a>
+                        <a href="egipto.html" target="_blank" id="Egipto">
+                            <img 
+                            src="imagenes/egipto.jpeg"
+                            alt="Pirámides de Giza"
+                            width=auto
+                            height=auto
+                            />
+                            <h3>Egipto</h3>
+                            <p>Sumérgete en la magia del antiguo Egipto, maravíllate con las Pirámides de Giza, el Templo de Karnak y realiza un crucero por el Nilo.</p>
+                        </a>
+                        <a href="alemania.html" target="_blank" id="Alemania">
+                            <img 
+                            src="imagenes/alemania.jpeg"
+                            alt="Castillo de Neuschwanstein"
+                            width=auto
+                            height=auto
+                            />
+                            <h3>Alemania</h3>
+                            <p>Descubre la rica historia y la cultura vibrante de Alemania, desde los castillos medievales en la Ruta Romántica hasta la modernidad de ciudades como Berlín y Múnich.</p>
+                        </a>
+                        <a href="francia.html" target="_blank" id="Francia">
+                            <img 
+                            src="imagenes/francia.jpeg"
+                            alt="Torre Eiffel"
+                            width=auto
+                            height=auto
+                            />
+                            <h3>Francia</h3>
+                            <p>Sumérgete en la elegancia y el encanto de Francia, desde la Torre Eiffel en París hasta los viñedos de la región de Borgoña.</p>
+                        </a>
+                        <a href="suiza.html" target="_blank" id="Suiza">
+                            <img 
+                            src="imagenes/suiza.jpeg"
+                            alt="Castillo de Chillon"
+                            width=auto
+                            height=auto
+                            />
+                            <h3>Suiza</h3>
+                            <p>Embárcate en un viaje a través de los paisajes alpinos suizos, disfrutando de la belleza natural y la precisión suiza en cada rincón.</p>    
+                        </a>
+                    </div>
                 </section>
             </article>
             <footer>
