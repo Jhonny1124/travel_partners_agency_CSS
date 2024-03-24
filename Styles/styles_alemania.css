@@ -168,18 +168,6 @@ main article p strong{
     padding: 0;
     margin: 0;
 }
-#descripcion{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-#destinos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 #turismo{
     display: grid;
     place-items: center;
@@ -229,7 +217,7 @@ main article p strong{
     opacity: 0.5;
     transition: opacity 0.5s ease;
 }
-#turismo div:not(:hover){
+#turismo div:not(:hover) img{
     opacity: 1;
     transition: opacity 0.5s ease;
 }
