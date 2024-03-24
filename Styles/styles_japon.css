@@ -124,12 +124,254 @@ main article{
     top: 11vw;
     left: 22vw;
     margin-bottom: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(241, 241, 241);
+    text-align: center;
+    align-items: center;
 }
-footer p{
-    margin-left: 20vw;
+main article ul, main article ol{
+    list-style: none;
+    padding: 0;
+}
+main article h2{
+    font-size: 2vw;
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+main article h3{
+    font-size: 1.5vw;
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+main article p{
+    font-size: 1.1vw;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+main article p strong{
+    font-size: 1.1vw;
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+footer em{
+    margin-left: 37vw;
     text-align: right;
     color: rgb(187, 183, 183);
 }
 footer{
-    margin-top: 5vw;
+    margin-top: 3vw;
+}
+#turismo{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 70vw;
+    height: auto;
+    column-gap: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+#turismo div{
+    position: relative; 
+}
+#turismo div h3{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color:gold;
+}
+#turismo div p{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: 1.5vw;
+}
+#turismo div img{
+    width: 35vw;
+    height: auto;
+    border-radius: 1vw;
+}
+#turismo div:nth-child(1) img{
+    height: 70vw;
+}
+#turismo div video{
+    width: 35vw;
+    height: auto;
+    border-radius: 1vw;
+}
+#turismo div:nth-child(1){
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#turismo div:nth-child(2){
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+#turismo div:nth-child(3){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#turismo div:nth-child(4){
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#turismo div:nth-child(5){
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#turismo div:nth-child(6){
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#turismo div:nth-child(7){
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+#turismo div:nth-child(8){
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+#turismo div:hover img{
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+#turismo div:hover video{
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+#turismo div:not(:hover) img{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+#turismo div:not(:hover) video{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+#turismo div:hover:nth-child(1) h3{
+    top: 37%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(2) h3{
+    top: 37%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(3) h3{
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(4) h3{
+    top: 34%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(5) h3{
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: black;
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(6) h3{
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(7) h3{
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover:nth-child(8) h3{
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:not(:hover) h3{
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    transition: top 1s ease, font-size 1s ease, color 1s ease;
+}
+#turismo div:hover p{
+    opacity: 1;
+    transition: opacity 2s ease;
+}#turismo div:not(:hover) p{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#intinerario div ul{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+#intinerario div{
+    margin-bottom: 2vw;
+}
+#intinerario div:hover ul{
+    max-height: 1000px;
+    opacity: 1;
+}
+#costos ol li ul{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+#costos ol li{
+    margin-bottom: 1.5vw;
+}
+#costos ol li:hover ul{
+    max-height: 1000px;
+    opacity: 1;
 }
